@@ -13,7 +13,7 @@
     "lint:fix": "npx eslint . --ext .ts --fix"
   },
   "author": "FAYStarNext",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "@typescript-eslint/parser": "^7.5.0",
