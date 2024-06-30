@@ -1,12 +1,12 @@
 {
-  "name": "rlsiot",
+  "name": "template-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tsc-watch --onSuccess \"cross-env NODE_ENV=development node dist/index.js\" --onFailure \"echo 'Build failed'\"",
-    "dev:colored": "npx tsc-watch --onSuccess \"cross-env NODE_ENV=development  node dist/index.js\" --onFailure \"echo 'Build failed'\" | pino-pretty",
+    "dev:colored": "npx tsc-watch --onSuccess \"cross-env NODE_ENV=development  node dist/index.js\" --onFailure \"echo 'Build failed'\"",
     "build": "npx tsc -p .",
     "start": "cross-env NODE_ENV=production node dist/index.js",
     "lint": "npx eslint . --ext .ts",
